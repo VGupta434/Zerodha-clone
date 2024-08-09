@@ -1,0 +1,75 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    height: 500vh;
+}
+.topNavigationContainer
+{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: 1px solid rgba(180, 180, 180, 0.248);
+}
+
+.navigationContainer
+{
+    display: flex;
+    justify-content: space-between ;
+    padding: 1.5rem 11.5rem;
+}
+
+.rightHSNavContainer
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    list-style: none;
+    a
+    {
+        color: grey;
+        text-decoration: none;
+        font-size: large;
+    }
+    a:hover
+    {
+        color: #387ed1;
+    }
+}
+
+.heroSectionContainer
+{
+    margin: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    h1
+    {
+        margin-top: 30px;
+        font-size: xxx-large;
+        font-weight: 500;
+        color: rgb(75, 75, 75);
+    }
+    h3
+    {
+        font-size: x-large;
+        font-weight: 300;
+        color: rgb(75, 75, 75);
+    }
+}
+
+.signUpButton
+{
+    margin-top: 20px;
+    background-color: #387ed1;
+    font-size: x-large;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+}
